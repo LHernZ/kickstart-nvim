@@ -264,6 +264,8 @@ vim.opt.expandtab = true
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
+vim.opt.scrolloff = 8
+
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
